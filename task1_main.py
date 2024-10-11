@@ -1,7 +1,6 @@
 #Task 1: Your Mood Today
-
-import mood_responses
+import moods
 
 mood = input("How are you feeling today? ")
 
-print(mood_responses.mood_response(mood))
+print(moods.mood_response(mood))

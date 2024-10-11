@@ -6,5 +6,5 @@ from text_utils import capitalize_string as capstr
 
 string = "this is a test"
 
-print(rs)
-print(capstr)
+print(rs(string))
+print(capstr(string))
